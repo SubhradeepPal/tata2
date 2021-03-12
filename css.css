@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#profile-pic{
+    height: 200px;
+    width: auto;
+    float:left;
+    border:hotpink 3px solid;
+    border-radius: 50%;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background-color: greenyellow;
+    width: 70%;
+    margin: 0 auto;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bio{
+    float: left;
+    padding:30px;
+}
+.bio h1{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-style:unset;
+    text-shadow: rgb(255, 164, 209) 3px 3px;
+    font-size: 40px;
+   
+}
+.bio h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color:rgb(65, 0, 218)
+}
+#clear{
+    clear:both;
+}
+.right-head{
+    float: right;
+    padding:30px;
+    margin-right: 20px;
+}
+.right-head h2{
+    color:rgb(65, 0, 218);
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.right-head ul{
+    list-style: none;  
+    padding: 5px;
+}
+.right-head ul li{
+    line-height: 30px;
+}
+.right-head ul li a{
+    text-decoration: none;
+    color:rgb(163, 27, 3);
+}
+.right-head ul li a:hover{
+    background-color: seagreen;
+    color:white;
+    border:violet 2px solid;
+
+}
+.right-head ul li:nth-child(1)::before{
+    content: "\1F4EC";
+    margin-right: 3px;
+}
+.right-head ul li:nth-child(2)::before{
+    content:"\25B6";
+   border: red 3px solid;
+   margin-right: 3px;
+   top:5px;
+   color:white;
+   background-color: red;
+   border-radius: 5px;
+   padding:0px 3px;
+}
+.right-head ul li:nth-child(3)::before{
+    content:"\1F4DE";
+    margin-right: 3px;
+}
+#hr1{
+    margin: 10px;
+    border:rgb(255, 0, 149) 3px dotted;
+}
+body{
+    background-image: url("back.jpg");
+}
+.right-main{
+    padding: 40px;
+    float:left;
+    border: 8px dotted rgb(255, 255, 255);
+    background-image: url("idback.jpg");
+    background-size: auto 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+}
+.right-main ul{
+        list-style: none;       
+}
+.right-main ul li{
+    margin: 23px 0px;
+}
+.right-main ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:cursive;
+    border:rgb(0, 217, 255) 5px inset;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding:5px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), green, yellow);
+    color:rgb(90, 0, 102)
+}
+.right-main ul li a:hover{
+    background-image: radial-gradient(circle, white, yellow, green);
+}
+.right-main ul li:nth-child(even)::before{
+    content: "\1F499";
+    font-size: 30px;
+    padding:4px;
+    border:rgb(241, 123, 123) 4px solid;
+    background-color: cyan;
+    border-radius: 50%;
+    
+    
+}
+.right-main ul li:nth-child(odd)::before{
+    content: "\1F499";
+    font-size: 30px;
+    padding:4px;
+    background-color: cyan;
+    border-radius: 50%;
+    border:rgb(241, 123, 123) 4px solid;
+}
+.left-main{
+    width: 50%;
+    float:right;
+    margin-right: 20px;
+    background-color: lightblue;
+    height: 430px;
+    border:rgb(163, 27, 3) 6px dotted;
+    border-radius: 20px;
+}
+.left-main p{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    
+}
